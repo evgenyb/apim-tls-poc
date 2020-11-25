@@ -1,0 +1,10 @@
+config:
+  apim-agw-mtls:certificate.keyvaultid: https://iac-ssl-meta-kv.vault.azure.net/secrets/star-iac-labs-coma9b6208a-bbc5-4e23-b60c-eaec93c308f1
+  apim-agw-mtls:firstTimeAPIM: "false"
+  apim-agw-mtls:vnet.addressSpaces: 10.10.0.0/16
+  apim-agw-mtls:vnet.subnets.afw.addressPrefixes: 10.10.16.64/26
+  apim-agw-mtls:vnet.subnets.agw.addressPrefixes: 10.10.16.0/27
+  apim-agw-mtls:vnet.subnets.aks.addressPrefixes: 10.10.0.0/20
+  apim-agw-mtls:vnet.subnets.apim.addressPrefixes: 10.10.16.32/27
+  apim-agw-mtls:vnet.subnets.functions.addressPrefixes: 10.10.17.0/24
+  azure:location: westeurope
